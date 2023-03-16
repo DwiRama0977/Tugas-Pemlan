@@ -6,7 +6,6 @@ public class Perpustakaan {
     private String kategori;
     private String tahun;
     private String halaman;
-    public Object setKategori;
 
     public void setKategori(String kategoriBuku) {
         this.kategori = kategoriBuku;
