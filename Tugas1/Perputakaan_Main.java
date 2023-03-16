@@ -55,10 +55,11 @@ public class Perputakaan_Main {
                 System.out.println("======================================");
                 System.out.println("Pilih Kategori Buku : ");
                 System.out.println("1. Agama");
-                System.out.println("3. Fiksi");
-                System.out.println("4. Filsafat");
-                System.out.println("5. Politik");
-                System.out.println("6. Psikologi");
+                System.out.println("2. Fiksi");
+                System.out.println("3. Filsafat");
+                System.out.println("4. Politik");
+                System.out.println("5. Psikologi");
+                System.out.println("6. Sejarah");
                 System.out.println("7. Teknologi");
                 System.out.println("(Masukkan angka lain untuk keluar)");
                 System.out.print("Pilihan : ");
