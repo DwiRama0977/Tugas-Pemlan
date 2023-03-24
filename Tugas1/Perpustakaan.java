@@ -6,25 +6,64 @@ public class Perpustakaan {
     private String kategori;
     private String tahun;
     private String halaman;
+    private String sinopsis;
 
-    public void setKategori(String kategoriBuku) {
-        this.kategori = kategoriBuku;
+    //(JAWABAN NO.2)MENGGUNAKAN CONSTRUKTOR
+    public Perpustakaan(String kategori, String judul, String penulis, String tahun, String halaman, String sinopsis) {
+        this.kategori = kategori;
+        this.penulis = penulis;
+        this.judul = judul;
+        this.tahun = tahun;
+        this.halaman = halaman;
+        this.sinopsis = sinopsis; 
     }
 
-    public void setPenulis(String penulisBuku) {
-        this.penulis = penulisBuku;
+    public Perpustakaan() {
     }
 
-    public void setJudul(String judulBuku) {
-        this.judul = judulBuku;
+    //(JAWABAN NO.3)METHOD HITUNG KATA PADA ATRIBUT SINOPSIS
+    public int jumlahKata(String sinopsis){
+        String hasil = sinopsis.replace('-', ' ');
+        String kata[] = hasil.split(" ");
+        return kata.length;
     }
 
-    public void setTahun(String tahunTerbit) {
-        this.tahun = tahunTerbit;
+    //(JAWABAN NO. 5)MEMBUAT METHOD COPY OBJEK YANG NILAINYA SAMA
+    public Perpustakaan copy (Perpustakaan bukuLama){
+        Perpustakaan bukuBaru = new Perpustakaan(bukuLama.kategori, bukuLama.judul, bukuLama.penulis, bukuLama.tahun, bukuLama.halaman, bukuLama.sinopsis);
+        return bukuBaru;
     }
 
-    public void setHalaman(String halamanBuku) {
-        this.halaman = halamanBuku;
+    //METHOD UNTUK MENCARI BUKU BERDASARKAN JUDUL
+    public int cariBuku (String judul, String bukuLama[][]){
+        int hasil = 0;
+        for (int i = 0; i < 5; i++){
+            if (bukuLama[i][0].equalsIgnoreCase(judul)) {
+            return hasil = i;
+            }
+        }
+        return hasil;
+    }
+
+    // MENGGUNAKAN METHOD SETTER
+    public void setKategori(String kategori) {
+        this.kategori = kategori;
+    }
+
+    public void setPenulis(String penulis) {
+        this.penulis = penulis;
+    }
+
+    public void setJudul(String judul) {
+        this.judul = judul;
+    }
+
+    public void setTahun(String tahun) {
+        this.tahun = tahun;
+    }
+
+    public void setHalaman(String halaman) {
+        this.halaman = halaman;
     }
 
     public void tampil() {
@@ -32,6 +71,6 @@ public class Perpustakaan {
         System.out.println("Penulis Buku\t: " + this.penulis);
         System.out.println("Tahun terbit\t: " + this.tahun);
         System.out.println("Halaman buku\t: " + this.halaman + " halaman");
-        System.out.println();
+        System.out.println("Sinopsis buku\t: " + this.sinopsis);
     }
 }
