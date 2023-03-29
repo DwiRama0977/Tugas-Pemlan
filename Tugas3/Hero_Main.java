@@ -31,7 +31,7 @@ public class Hero_Main {
 
         int i = 1;
         while (hero1.getHp() > 0 && hero2.getHp() > 0) {
-            System.out.println("==========RONDE KE-" + i + "===========");
+            System.out.println("==========RONDE KE-" + i++ + "===========");
             hero1.lawan(hero2);
             if (hero2.getHp() > 0) {
                 hero2.lawan(hero1);
