@@ -30,10 +30,8 @@ public class Hero_Main {
         hero2.tampil();
 
         int i = 1;
-        int k = 0;
         while (hero1.getHp() > 0 && hero2.getHp() > 0) {
             System.out.println("==========RONDE KE-" + i + "===========");
-            k = i++;
             hero1.lawan(hero2);
             if (hero2.getHp() > 0) {
                 hero2.lawan(hero1);
