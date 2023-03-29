@@ -49,12 +49,12 @@ public class Hero {
         System.out.println(this.nama + " menyerang " + musuh.nama);
         System.out.println(musuh.nama + " mendapat damage sebesar " + this.atk);
         
-        musuh.menyerang(this.atk);
+        musuh.menyerang(musuh.atk);
         System.out.println("hp " + musuh.nama + " tersisa " + musuh.hp);
         System.out.println();
         if (musuh.hp <= 0) {
             System.out.println("=============HASIL=============");
-            System.out.println(this.nama + " telah kalah");
+            System.out.println(musuh.nama + " telah kalah");
         }
     }
     
