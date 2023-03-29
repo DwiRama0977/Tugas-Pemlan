@@ -41,7 +41,7 @@ public class Hero {
     public void tampil (){
         System.out.println("Nama hero\t\t: " + this.nama);
         System.out.println("Attack hero\t\t: " + this.atk);
-        System.out.println("Health Poin hero\t: " + this.hp);
+        System.out.println("Health point hero\t: " + this.hp);
         System.out.println();
     }
 
