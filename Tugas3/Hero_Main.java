@@ -46,7 +46,7 @@ public class Hero_Main {
         }
     }
     public static void  akhir (String nama) {
-        System.out.println(nama + " memenangkan pertandingan");
+            System.out.println(nama + " memenangkan pertandingan");
             System.out.println("Pertandingan telah selesai");
             System.out.println();
     }
