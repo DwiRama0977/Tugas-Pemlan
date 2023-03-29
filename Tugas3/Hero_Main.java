@@ -38,7 +38,7 @@ public class Hero_Main {
             }
         }
         
-        if (hero1.getHp()<0) {
+        if (hero1.getHp()<=0) {
             akhir(hero2.getNama());
         } 
         else {
