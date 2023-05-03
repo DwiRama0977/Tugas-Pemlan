@@ -7,7 +7,7 @@ class LabKomdas {
     public LabKomdas (int hargaA, int hargaB, int hargaC) {
         this.jaketA = hargaA; 
         this.jaketB = hargaB;
-        this.jaketC = hargaC;
+        this.jaketC = hargaC; 
     }
 
     public int getJaketA() {
