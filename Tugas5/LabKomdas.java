@@ -5,10 +5,11 @@ class LabKomdas {
     private int harga;
 
     public LabKomdas (int hargaA, int hargaB, int hargaC) {
-        jaketA = hargaA; 
-        jaketB = hargaB;
-        jaketC = hargaC;
+        this.jaketA = hargaA; 
+        this.jaketB = hargaB;
+        this.jaketC = hargaC;
     }
+
     public int getJaketA() {
         return jaketA;
     }
