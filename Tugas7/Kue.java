@@ -24,7 +24,7 @@ public abstract class Kue {
     public double getHarga() {
         return harga;
     }
-
+    
     public abstract double hitungHarga();
 
     public String toString() {

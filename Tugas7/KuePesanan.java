@@ -11,7 +11,7 @@ public class KuePesanan extends Kue {
     public void setBerat(double berat) {
         this.berat = berat;
     }
-
+    
     public double getBerat() {
         return berat;
     }

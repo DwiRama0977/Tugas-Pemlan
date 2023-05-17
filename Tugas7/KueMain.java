@@ -70,7 +70,7 @@ public class KueMain {
         }
         System.out.println("HARGA TOTAL KUE JADI\t: " + totalHargaJadi);
         System.out.println("JUMLAH TOTAL KUE JADI\t: " + totalJumlahJadi);
-
+    
         double kueMahal = 0;
         Kue mahal = null;
         for (int i = 0; i < daftarKue.length; i++) {
