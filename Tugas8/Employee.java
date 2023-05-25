@@ -1,10 +1,10 @@
 package Tugas8;
 
 public class Employee implements Payable { 
-    int registrationNumber;
-    String name;
-    int salaryPerMonth;
-    Invoice[] invoices;
+    private int registrationNumber;
+    private String name;
+    private int salaryPerMonth;
+    private Invoice[] invoices;
 
     public Employee(int registrationNumber, String name, int salaryPerMonth, Invoice[] invoices) {
         this.registrationNumber = registrationNumber;

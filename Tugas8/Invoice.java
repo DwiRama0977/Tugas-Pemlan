@@ -1,9 +1,9 @@
 package Tugas8;
 
 public class Invoice implements Payable { 
-    String productName;
-    int quantity;
-    int pricePerItem;
+    private String productName;
+    private int quantity;
+    private int pricePerItem;
     public Invoice[] invoice2;
 
     public Invoice(String productName, int quantity, int pricePerItem) {
