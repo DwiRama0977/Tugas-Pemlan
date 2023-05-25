@@ -1,6 +1,6 @@
 package Tugas8;
 
-public class Invoice implements Payable { 
+public class Invoice implements Payable {
     String productName;
     int quantity;
     int pricePerItem;
