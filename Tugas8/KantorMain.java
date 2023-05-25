@@ -1,7 +1,7 @@
 package Tugas8;
 
 public class KantorMain {
-    public static void main(String[] args) { 
+    public static void main(String[] args) {
         Invoice invoice1 = new Invoice("Barang", 2, 50);
         Invoice invoice2 = new Invoice("Konsumsi", 3, 25);
 
