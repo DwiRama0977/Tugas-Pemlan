@@ -1,6 +1,6 @@
 package Tugas8;
 
-public class Employee implements Payable{
+public class Employee implements Payable { 
     int registrationNumber;
     String name;
     int salaryPerMonth;
