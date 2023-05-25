@@ -1,2 +1,2 @@
-# Tugas-Pemlan
-Tugas Kuliah Pemrograman Lanjut
+# Tugas-Praktikum-Pemlan
+Tugas Kuliah Praktikum Pemrograman Lanjut
